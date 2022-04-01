@@ -2,7 +2,9 @@
   "author_name": "Captain Jupyter",
   "github_username": "{{ cookiecutter.author_name.lower().replace(' ', '') }}",
   "book_name": "My Book",
+  "repo_name": "{{ cookiecutter.book_name.lower().replace(' ', '_').replace('-', '_') }}",
   "book_slug": "{{ cookiecutter.book_name.lower().replace(' ', '_').replace('-', '_') }}",
+  "book_dir": "book",
   "book_short_description": "This cookiecutter creates a simple boilerplate for a Jupyter Book.",
   "version": "'0.1.0'",
   "open_source_license": [

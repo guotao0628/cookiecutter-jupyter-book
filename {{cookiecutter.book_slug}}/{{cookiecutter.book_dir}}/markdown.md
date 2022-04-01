@@ -52,7 +52,6 @@ In your built book.
 For more information on writing directives, see the
 [MyST documentation](https://myst-parser.readthedocs.io/).
 
-
 ### Using a role
 
 Roles are very similar to directives, but they are less-complex and written
@@ -70,7 +69,6 @@ role syntax `` {doc}`intro` `` will result in: {doc}`intro`.
 
 For more information on writing roles, see the
 [MyST documentation](https://myst-parser.readthedocs.io/).
-
 
 ### Adding a citation
 
@@ -92,14 +90,14 @@ then the bibliography is inserted with:
 Resulting in a rendered bibliography that looks like:
 
 ```{bibliography}
-```
 
+```
 
 ### Executing code in your markdown files
 
 If you'd like to include computational content inside these markdown files,
 you can use MyST Markdown to define cells that will be executed when your
-book is built. Jupyter Book uses *jupytext* to do this.
+book is built. Jupyter Book uses _jupytext_ to do this.
 
 First, add Jupytext metadata to the file. For example, to add Jupytext metadata
 to this markdown page, run this command:
