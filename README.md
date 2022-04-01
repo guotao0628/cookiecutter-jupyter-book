@@ -27,13 +27,14 @@ my_book
 ├── my_book
 │   ├── _config.yml
 │   ├── _toc.yml
-│   ├── content.md
-│   ├── intro.md
+│   ├── fav.ico
 │   ├── logo.png
+│   ├── bibliography.md
 │   ├── markdown.md
 │   ├── notebooks.ipynb
 │   └── references.bib
 ├── README.md
+├── index.md
 └── requirements.txt
 ```
 
@@ -48,7 +49,7 @@ $ pip install -U cookiecutter
 2. Use `cookiecutter-jupyter-book` to generate a Jupyter Book template and fill out the requested information (default templating values are shown in square brackets `[]` and will be used if no other information is entered):
 
 ```bash
-$ cookiecutter git@github.com:executablebooks/cookiecutter-jupyter-book.git
+$ cookiecutter gh:giswqs/cookiecutter-jupyter-book
 
 author_name [Captain Jupyter]: Tomas Beuzen
 github_or_gitlab_username [tomasbeuzen]:
@@ -75,7 +76,7 @@ Choose from 1, 2, 3 [1]:
 
 ```bash
 # Optional steps to create and activate virtual environment
-$ conda create --name mybook python=3.8 -y
+$ conda create --name mybook python=3.9 -y
 $ conda activate mybook
 ```
 
