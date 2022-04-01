@@ -7,7 +7,7 @@
 [![os](https://img.shields.io/badge/OS-Ubuntu%2C%20Mac%2C%20Windows-yellow)]()
 
 <p align="center">
-  <img src="{{cookiecutter.book_slug}}/{{cookiecutter.book_slug}}/logo.png" width="400">
+  <img src="{{cookiecutter.repo_name}}/{{cookiecutter.repo_name}}/logo.png" width="400">
 </p>
 
 A cookiecutter template for creating a simple [Jupyter Book](https://jupyterbook.org/intro.html). See the rendered version of this cookiecutter template [here](https://executablebooks.github.io/cookiecutter-jupyter-book/).
@@ -53,8 +53,8 @@ $ cookiecutter gh:giswqs/cookiecutter-jupyter-book
 
 author_name [Captain Jupyter]: Tomas Beuzen
 github_or_gitlab_username [tomasbeuzen]:
-book_name [My Book]:
-book_slug [my_book]:
+book_title [My Book]:
+repo_name [my-book]:
 book_short_description [This cookiecutter creates a simple boilerplate for a Jupyter Book.]: My first Jupyter Book!
 version ['0.1.0']:
 Select open_source_license:

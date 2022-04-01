@@ -17,7 +17,7 @@ General improvement to the repo in this version, with updated docs and new tests
 - ✨ NEW: adding new test regime using pytest (@TomasBeuzen) (PR: #19)
 - ✨ NEW: validate entered github username on github.com (@TomasBeuzen) (PR: #5)
 
-- 👌 IMPROVE: CC is now more host-agnostic, supporting both GitHub and GitLab, with various changes to the .json file and post-gen script. The goal is to improve support fot GitLab as its support in JupyterBook grows (PR: )
+- 👌 IMPROVE: CC is now more host-agnostic, supporting both GitHub and GitLab, with various changes to the .json file and post-gen script. The goal is to improve support for GitLab as its support in JupyterBook grows (PR: )
 - 👌 IMPROVE: add "None" option to licenses (@TomasBeuzen) (PR: #17)
 - 👌 IMPROVE: change "full_name" to "author_name" in CC json for clarity (@TomasBeuzen) (PR: #2)
   
