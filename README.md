@@ -1,14 +1,7 @@
 # Cookiecutter Jupyter Book
 
-![tests](https://github.com/executablebooks/cookiecutter-jupyter-book/workflows/tests/badge.svg)
-![deploy](https://github.com/executablebooks/cookiecutter-jupyter-book/workflows/deploy/badge.svg)
-[![release](https://img.shields.io/github/release/executablebooks/cookiecutter-jupyter-book.svg)](https://github.com/executablebooks/cookiecutter-jupyter-book/releases)
-[![python](https://img.shields.io/badge/python-3.7%2C%203.8-blue)]()
+![deploy](https://github.com/giswqs/jupyter-book-demo/workflows/deploy/badge.svg)
 [![os](https://img.shields.io/badge/OS-Ubuntu%2C%20Mac%2C%20Windows-yellow)]()
-
-<p align="center">
-  <img src="{{cookiecutter.repo_name}}/{{cookiecutter.repo_name}}/logo.png" width="400">
-</p>
 
 A cookiecutter template for creating a simple [Jupyter Book](https://jupyterbook.org/intro.html). See the rendered version of this cookiecutter template [here](https://executablebooks.github.io/cookiecutter-jupyter-book/).
 
