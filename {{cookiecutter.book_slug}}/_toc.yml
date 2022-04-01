@@ -4,5 +4,19 @@
 format: jb-book
 root: index
 chapters:
-  - file: {{cookiecutter.book_dir}}/markdown
-  - file: {{cookiecutter.book_dir}}/notebooks
+  - file: {{ cookiecutter.book_dir }}/markdown
+  - file: {{ cookiecutter.book_dir }}/notebooks
+  - file: {{ cookiecutter.book_dir }}/bibliography
+
+# Or you organize the TOC by parts
+
+# parts:
+#   - caption: Chapters
+#     numbered: true
+#     maxdepth: 2
+#     chapters:
+#       - file: book/markdown
+#       - file: book/notebooks
+#   - caption: Appendices
+#     chapters:
+#       - file: book/bibliography

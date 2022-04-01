@@ -1,3 +1,17 @@
+---
+jupytext:
+  text_representation:
+    extension: .md
+    format_name: myst
+    format_version: 0.13
+    jupytext_version: 1.11.5
+kernelspec:
+  display_name: Python 3
+  language: python
+  name: python3
+---
+
+
 # Markdown Files
 
 Whether you write your book's content in Jupyter Notebooks (`.ipynb`) or
@@ -65,7 +79,7 @@ Some content {rolename}`and here is my role's content!`
 Again, roles will only work if `rolename` is a valid role's name. For example,
 the `doc` role can be used to refer to another page in your book. You can
 refer directly to another page by its relative path. For example, the
-role syntax `` {doc}`intro` `` will result in: {doc}`intro`.
+role syntax `` {doc}`index` `` will result in: {doc}`index`.
 
 For more information on writing roles, see the
 [MyST documentation](https://myst-parser.readthedocs.io/).
@@ -75,6 +89,9 @@ For more information on writing roles, see the
 You can also cite references that are stored in a `bibtex` file. For example,
 the following syntax: `` {cite}`holdgraf_evidence_2014` `` will render like
 this: {cite}`holdgraf_evidence_2014`.
+
+Multiple citations can be used like this:
+ {cite}`holdgraf_rapid_2016, holdgraf_encoding_2017`
 
 Moreover, you can insert a bibliography into your page with this syntax:
 The `{bibliography}` directive must be used for all the `{cite}` roles to
@@ -89,9 +106,9 @@ then the bibliography is inserted with:
 
 Resulting in a rendered bibliography that looks like:
 
-```{bibliography}
+<!-- ```{bibliography}
 
-```
+``` -->
 
 ### Executing code in your markdown files
 

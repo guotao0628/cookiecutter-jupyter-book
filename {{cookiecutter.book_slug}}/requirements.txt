@@ -1,4 +1,5 @@
 jupyter-book
+jupytext
 matplotlib
 numpy
 {% if cookiecutter.include_ci == 'github' -%}ghp-import{% endif %}

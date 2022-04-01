@@ -1,4 +1,5 @@
 jupyter-book
+jupytext
 cookiecutter
 pytest
 black
