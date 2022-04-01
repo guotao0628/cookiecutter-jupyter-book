@@ -19,5 +19,9 @@
     "github",
     "gitlab",
     "no"
+  ],
+  "branch_name": [
+    "master",
+    "main"
   ]
 }
